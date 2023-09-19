@@ -1,0 +1,1 @@
+.detail-poli{display:grid;grid-template-columns:1fr;border-radius:8px}.detail-poli .row{display:flex}.detail-poli .row>div{flex:1}.detail-poli .row span{display:block}.detail-poli .row span:first-child{color:#000;font-weight:bold}.detail-poli .row span:last-child{font-size:.9rem}.detail-poli .tombol-aksi{gap:8px}td.aksi{justify-content:space-evenly}.aksi{width:300px}

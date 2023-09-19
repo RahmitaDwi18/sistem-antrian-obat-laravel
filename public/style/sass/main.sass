@@ -1,0 +1,31 @@
+@import 'utils/colors'
+
+.navigation
+    display: flex
+    justify-content: end
+    align-items: center
+    padding: 0 20px
+    column-gap: 4px
+    list-style: none
+
+    &>li:nth-child(2), a
+        width: 54px
+        height: 44px
+        border: 1px solid rgba(204, 204, 204, .7)
+        border-radius: 4px
+        display: flex
+        justify-content: center
+        align-items: center
+
+        &:hover
+            cursor: default
+            text-decoration: none
+
+    &>li:not(:nth-child(2)) a
+        font-size: 1.5rem
+        transition: background-color 300ms, color 300ms
+
+        &:hover
+            cursor: pointer
+            color: #000
+            background-color: rgba(204, 204, 204, .3)

@@ -1,0 +1,1 @@
+.detail-patients{display:grid;grid-template-columns:1fr;border-radius:8px}.detail-patients .row{display:flex}.detail-patients .row>div{flex:1}.detail-patients .row span{display:block}.detail-patients .row span:first-child{color:#000;font-weight:bold}.detail-patients .row span:last-child{font-size:.9rem}.detail-patients .tombol-aksi{gap:8px}

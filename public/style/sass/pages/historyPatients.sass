@@ -1,0 +1,42 @@
+$widht-button: 40px
+
+.top, .input-search
+    display: flex
+    align-items: center
+
+.top h3, .search
+    flex: 1
+
+.top
+    justify-content: space-between
+    margin: 40px 0
+
+    h3
+        font-size: 1.2rem
+        font-weight: bold
+        margin: auto
+
+.search
+    position: relative
+
+    display: flex
+    column-gap: 12px
+    height: 40px
+
+.input-search
+    position: relative
+    flex: 1
+
+    input
+        padding-left: 40px
+        width: 100%
+        background-color: transparent
+
+        &:focus
+            outline: none
+
+    svg
+        position: absolute
+        left: 10px
+        top: 50%
+        transform: translateY(-50%)

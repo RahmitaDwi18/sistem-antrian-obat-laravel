@@ -1,0 +1,1 @@
+.detail-dokter{display:grid;grid-template-columns:1fr;border-radius:8px}.detail-dokter .row{display:flex}.detail-dokter .row>div{flex:1}.detail-dokter .row span{display:block}.detail-dokter .row span:first-child{color:#000;font-weight:bold}.detail-dokter .row span:last-child{font-size:.9rem}.detail-dokter .tombol-aksi{gap:8px}.edit-dokter{min-height:200px}
